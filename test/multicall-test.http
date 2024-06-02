@@ -1,0 +1,52 @@
+### POST Request to deploy an encoded contract read from file
+POST {{api_host}}/contract/deployContract
+Content-Type: application/json
+Accept: application/json
+x-api-key: {{api_key}}
+
+{
+  "chainId": "{{chain_id}}",
+  "fromAccount": "{{from_account}}",
+  "contractId": "{{contract_id}}",
+  "contractData": "{{payload}}"
+}
+
+### POST Request 2 - same request - simulates how chainlink functions would work
+POST {{api_host}}/contract/deployContract
+Content-Type: application/json
+Accept: application/json
+x-api-key: {{api_key}}
+
+{
+  "chainId": "{{chain_id}}",
+  "fromAccount": "{{from_account}}",
+  "contractId": "{{contract_id}}",
+  "contractData": "{{payload}}"
+}
+
+### POST Request 3 - same request - simulates how chainlink functions would work
+POST {{api_host}}/contract/deployContract
+Content-Type: application/json
+Accept: application/json
+x-api-key: {{api_key}}
+
+{
+  "chainId": "{{chain_id}}",
+  "fromAccount": "{{from_account}}",
+  "contractId": "{{contract_id}}",
+  "contractData": "{{payload}}"
+}
+
+### POST Request 4 - same request - simulates how chainlink functions would work
+POST {{api_host}}/contract/deployContract
+Content-Type: application/json
+Accept: application/json
+x-api-key: {{api_key}}
+
+{
+  "chainId": "{{chain_id}}",
+  "fromAccount": "{{from_account}}",
+  "contractId": "{{contract_id}}",
+  "contractData": "{{payload}}"
+}
+

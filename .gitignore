@@ -1,0 +1,12 @@
+node_modules
+dist
+
+# We do not store the environment variables in the repo as there will
+# be secrets in them.
+test/http-client.private.env.json
+
+# Annoying Mac stuff
+.DS_Store
+
+# IDE Settings excluded for hackaton
+.idea
